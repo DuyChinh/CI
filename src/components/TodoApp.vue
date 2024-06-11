@@ -94,11 +94,11 @@
 </script>
 
 <template>
-  <h1 class="text-center mt-4">To do list develop</h1>
+  <h1 class="text-center mt-4">develop To do list develop</h1>
   <div class="todo mx-auto">
     <form @submit.prevent="addTodo" class="form d-flex">
         <input v-model="newTodo" class="inputMain" placeholder="New todo..." required>
-        <button class="btn-add">Add New Todo develop</button>
+        <button class="btn-add">Add New Todo developer</button>
     </form>
     <div v-if="loading" class="todo mx-auto text-center mt-5" style="font-size: 20px; font-weight: 600;">
       Loading...
