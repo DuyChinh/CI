@@ -94,7 +94,7 @@
 </script>
 
 <template>
-  <h1 class="text-center mt-4">To do list develop</h1>
+  <h1 class="text-center mt-4">To do list main</h1>
   <div class="todo mx-auto">
     <form @submit.prevent="addTodo" class="form d-flex">
         <input v-model="newTodo" class="inputMain" placeholder="New todo..." required>
